@@ -23,8 +23,10 @@ void main(){
 
   //remove specific elsements it works fine if there is not copy elements 
   emptyList.remove(100);
+  print(emptyList.remove(2));
   //remove at specific location 
   emptyList.removeAt(2);
+  print(emptyList.remove(2));
 
 
 
